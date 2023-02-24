@@ -1,0 +1,15 @@
+server:
+  addr: 0.0.0.0:8080
+
+logger:
+  level: debug
+
+database:
+  type: mysql
+  host: localhost
+  port: 3306
+  username: root
+  password: root
+  dbname: skeleton
+  prefix: "pre_"
+  encode: utf8mb4
